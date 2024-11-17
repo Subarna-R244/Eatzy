@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eatzy - Explore the world of food varieties delivered to your door.">
+    <title>Eatzy</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="Navbar">
+        <h1>Eatzy</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-links"><a href="index.html">Home</a></p>
+            <p class="navbar-links"><a href="varities.html">Varieties</a></p>
+            <p class="navbar-links"><a href="contact.html">Contact</a></p>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-links"><a href="index.html">Home</a></p>
+            <p class="side-navbar-links"><a href="varities.html">Varieties</a></p>
+            <p class="side-navbar-links"><a href="contact.html">Contact</a></p>
+
+        </div>
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="contact-us" style="background-color: #1d232c; padding: 50px 0;">
+        <div class="contact-form-container"
+            style="max-width: 600px; margin: 0 auto; background-color: #1d232c; padding: 30px; border-radius: 8px;">
+            <h2 style="color: #fff; text-align: center;">Contact Us</h2>
+            <form action="#" method="POST">
+                <div class="form-field" style="margin-bottom: 20px;">
+                    <label for="name" style="color: #fff; display: block; margin-bottom: 5px;">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"
+                        style="width: 100%; padding: 10px; background-color: #fff; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+
+                <div class="form-field" style="margin-bottom: 20px;">
+                    <label for="email" style="color: #fff; display: block; margin-bottom: 5px;">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email"
+                        style="width: 100%; padding: 10px; background-color: #fff; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+
+                <div class="form-field" style="margin-bottom: 20px;">
+                    <label for="message" style="color: #fff; display: block; margin-bottom: 5px;">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your message" rows="5"
+                        style="width: 100%; padding: 10px; background-color: #fff; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                </div>
+
+                <div style="text-align: center;">
+                    <button type="submit"
+                        style="background-color: #4CAF50; color: #fff; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer;">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" style="background-color: #1d232c; color: #fff; padding: 20px 0; text-align: center;">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="headingText">Eatzy</h2>
+                <p>Food items come in all shapes, sizes, and flavors, offering a delightful experience for every palate.
+                    From hearty meals to light snacks, there's something to satisfy every craving!</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Eatzy.com</p>
+    </div>
+
+    <script src="contact.js"></script>
+
+
+</body>
+
+</html>

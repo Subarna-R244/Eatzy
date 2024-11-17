@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eatzy - Explore the world of food varieties delivered to your door.">
+    <title>Eatzy</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--My Css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="Navbar">
+        <h1>Eatzy</h1>
+
+        <div class="navbar-links">
+
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="varities.html">Varieties</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-links"><a href="index.html">Home</a></p>
+            <p class="side-navbar-links"><a href="varities.html">Varieties</a></p>
+            <p class="side-navbar-links"><a href="contact.html">Contact</a></p>
+
+        </div>
+    </div>
+
+    <!--product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="mutton biriyani-200x200.jpg" alt="">
+                <p>Mutton Biriyani</p>
+            </div>
+
+            <div class="products-box">
+                <img src="chicken rice-200x200.jpg" alt="">
+                <p>Chicken rice</p>
+            </div>
+
+            <div class="products-box">
+                <img src="variety rice-200x200.jpg" alt="">
+                <p>variety rice</p>
+            </div>
+
+            <div class="products-box">
+                <img src="veg pulao-200x200.jpg" alt="">
+                <p>vegetable rice</p>
+            </div>
+            <div class="products-box">
+                <img src="fried rice-200x200.jpg" alt="">
+                <p>Fried rice</p>
+            </div>
+            <div class="products-box">
+                <img src="full meals-200x200.jpg" alt="">
+                <p>Full Meals</p>
+            </div>
+            <div class="products-box">
+                <img src="purrota-200x200.jpg" alt="">
+                <p>Purrota</p>
+            </div>
+            <div class="products-box">
+                <img src="idli-200x200.jpg" alt="">
+                <p>idli</p>
+            </div>
+            <div class="products-box">
+                <img src="puttu-200x200.jpg" alt="">
+                <p>puttu</p>
+            </div>
+            <div class="products-box">
+                <img src="sambar rice-200x200.jpg" alt="">
+                <p>Sambar Rice</p>
+            </div>
+            <div class="products-box">
+                <img src="dosa-200x200.jpg" alt="">
+                <p>Dosa</p>
+            </div>
+            <div class="products-box">
+                <img src="pongal-200x200.jpg" alt="">
+                <p>Pongal-Vadai</p>
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box1">
+                <h2 class="headingText">Eatzy</h2>
+                <p>Food items come in all shapes, sizes, and flavors, offering a delightful experience for every palate.
+                    From hearty meals to light snacks, there's something to satisfy every craving!</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                </div>
+
+            </div>
+
+        </div>
+        <p>@ 2024 Eatzy.com</p>
+
+    </div>
+
+    <script src="varities.js"></script>
+
+
+</body>
+
+</html>
